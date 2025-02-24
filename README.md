@@ -1,16 +1,26 @@
-# task_management_app
+Task Management App
 
-A new Flutter project.
+A Flutter-based mobile application for managing tasks with user authentication, priority sorting, and a clean UI.
 
-## Getting Started
+Features:
 
-This project is a starting point for a Flutter application.
+User Authentication:- Login, signup functionality using Firebase Authentication.
+Task Management:- Add, update, delete, and toggle task completion with Hive for local storage.
+Priority Sorting:- Tasks sorted by due date (earliest to latest) with customizable priority levels (Low, Medium, High).
+Responsive UI:- Clean design with animations and a sliding drawer.
+Persistent Sessions:- Automatic login using Firebase session persistence.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Tech Stack:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Frontend:- Flutter (Dart)
+State Management:- Bloc 
+Backend:- Firebase Authentication
+Local Storage:- Hive
+
+Usage:
+
+Login/Signup:- Use email and password to authenticate.
+Add Tasks:- Click the FAB in HomeView, enter details, and set priority.
+Manage Tasks:- Swipe to delete, tap to edit, or toggle completion.
+Logout:- Use the logout button in the app bar.
